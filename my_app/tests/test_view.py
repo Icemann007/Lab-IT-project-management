@@ -3,7 +3,11 @@ from django.urls import reverse
 
 from my_app.models import Cars
 
-CARS = {"model": "Test", "country": "Ukraine", "age": 5}
+CARS = {
+    "model": "Test",
+    "country": "Ukraine",
+    "age": 5
+}
 
 
 class MyappTests(TestCase):
